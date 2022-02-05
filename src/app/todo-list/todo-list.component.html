@@ -1,0 +1,16 @@
+<div class="mainContent">
+  <div>
+    <p>▼TODOメモを記載してください</p>
+    <input type="text" #todo>
+    <button (click)="addTodo(todo.value)">追加</button>
+  </div>
+
+  <div class="todoArea">
+    <h2>▼メモが表示されます</h2>
+    <ul class="todoTextGroup" *ngFor="let item of items">
+      <p class="updateDate">{{GetDate()}} <button (click)="Delete(items.indexOf(item))">Delete</button></p>
+      <li class="todoText">{{item}}</li>
+    </ul>
+  </div>
+</div>
+

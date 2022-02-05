@@ -1,0 +1,26 @@
+.mainContent{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  display: flex;
+}
+
+.todoArea{
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+p.updateDate {
+  font-size: 15px;
+  margin: 2px;
+}
+
+.todoTextGroup{
+  list-style: none;
+  border: 1px black solid;
+}
+
+li.todoText {
+  font-size: 25px;
+  padding: 5px;
+}
